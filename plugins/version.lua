@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-    return "Self-Bot v2 \n by BeatBot Team :) <3 \n @BeatBot_Team"
+    return "SELF_BOT The robot is made by the team #BLACK TEAM For more information, visit our channel address our channel: @BLACKTEAMS"
 end 
 return {
   patterns = {
