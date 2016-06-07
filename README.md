@@ -3,9 +3,11 @@ Self-Bot V1
 
 Robot in TELEGRAM channel address : [BLACK TEAM](https://telegram.me/BLACKTEAMS).
 
-Installation
+cods is terminal
 ------------
 ```bash
+Dear code that you must check in terminal⬇⬇
+
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
 
 # After those dependencies, lets install the bot
