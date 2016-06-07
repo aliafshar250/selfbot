@@ -235,6 +235,8 @@ function create_config( )
      "write",
      "links",
      "info",
+     "dlpm",
+     "dlreply",
      "muteall",
      "sticker",
      "addplug",
