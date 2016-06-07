@@ -90,6 +90,9 @@ function run(msg, matches)
 ●#unmuteall
 بازکردن چت در سوپر گروه
 
+●#write [text]
+خوشنویسی اسم مورد نظر شما
+
 ●#sticker (text)
 تبدیل (text) به استیکر
 
