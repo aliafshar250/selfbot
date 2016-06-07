@@ -16,13 +16,13 @@ local function enable_channel(receiver, to_id)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return 'Bot was on :D'
+		return 'ربات فعال شد ☺'
 	end
 	
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return 'Bot was on :D'
+	return 'ربات فعال شد ☺'
 end
 
 local function disable_channel(receiver, to_id)
@@ -33,7 +33,7 @@ local function disable_channel(receiver, to_id)
 	_config.disabled_channels[receiver] = true
 
 	save_config()
-	return 'Bot was off ;-/'
+	return 'ربات غیر فعال شد 😢'
 end
 
 local function pre_process(msg)
@@ -41,7 +41,7 @@ local function pre_process(msg)
 	
 	-- If sender is sudo then re-enable the channel
 	if is_sudo(msg) then
-	  if msg.text == "#bot on" then
+	  if msg.text == "bot on" then
 	    enable_channel(receiver, msg.to.id)
 	  end
 	end
@@ -71,8 +71,8 @@ end
 
 return {
 	patterns = {
-		"^#bot? (on)",
-		"^#bot? (off)" }, 
+		"^[!/#]bot? (on)",
+		"^[!/#]bot? (off)" }, 
 	run = run,
 	pre_process = pre_process
 }
